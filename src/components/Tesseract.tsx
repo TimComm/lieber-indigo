@@ -5,7 +5,7 @@ import Sketch from 'react-p5';
 import p5Types from 'p5';
 
 let angle = 0;
-let points: p5Types.Vector[] = [];
+const points: p5Types.Vector[] = [];
 
 const Tesseract = () => {
   const setup = (p5: p5Types, canvasParentRef: Element) => {
