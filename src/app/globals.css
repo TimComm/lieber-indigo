@@ -24,3 +24,41 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.peeling-corner {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 100px 100px;
+  border-color: transparent transparent #000 transparent;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.peeling-corner:hover {
+  border-width: 0 0 150px 150px;
+  border-color: transparent transparent #333 transparent;
+}
+
+
+.peeling-corner {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 100px 100px;
+  border-color: transparent transparent #000 transparent;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.peeling-corner:hover {
+  border-width: 0 0 150px 150px;
+  border-color: transparent transparent #333 transparent;
+}
+
